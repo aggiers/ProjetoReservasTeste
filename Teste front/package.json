@@ -1,0 +1,20 @@
+{
+  "name": "teste-front",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "enigmes": {
+    "node": "v22.15.1"
+  },
+  "scripts": {
+   "cypress:web":"npx cypress open",
+   "cypress:headless":"npx cypress run --browser electron"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cypress": "^14.5.3"
+  }
+}
